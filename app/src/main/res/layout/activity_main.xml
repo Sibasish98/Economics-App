@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    android:background="#C1F7F7">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:id="@+id/qd"
+        android:hint="Enter quantity demanded equation"
+        android:background="#EDE9BD"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="Enter quantity supplied equation"
+        android:id="@+id/qs"
+        android:background="#EDE9BD"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:id="@+id/pc"
+        android:hint="Enter price ceil"
+        android:background="#FFE6E6"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="Enter price floor"
+        android:id="@+id/pf"
+        android:background="#FFE6E6"/>
+    >
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="Enter tax amount"
+        android:id="@+id/ta"
+        android:background="#BBAFAE"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="Product"
+        android:id="@+id/prod"
+        android:background="#DF94A7"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Calculate"
+        android:onClick="buttonClicked"
+        android:id="@+id/bt"
+        android:height="100dp"
+        android:layout_marginTop="76dp"
+        android:background="#BA91C8"/>
+
+</LinearLayout>
