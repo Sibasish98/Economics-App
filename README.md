@@ -1,14 +1,34 @@
 # Economics-App
 
-This is a very simple app, in which user needs to enter a demand equation,supply equation, price ceil, price floor, tax amount and the application would display the analysis upon that. 
+This is a very simple app, in which user needs to enter a demand equation,supply equation, price ceil, price floor, tax amount and the application would display the analysis upon that. '
 **Note:**
-**1> The both equation must be in exact format as d[s]d'p'   ,  where d is any number, s is for either + or -, and again a d (another number) followed by a lower case 'p' letter denoting the price varibale. For example:
+
+
+
+
+
+1> The both equation must be in exact format as d[s]d'p'   ,  where d is any number, s is for either + or -, and again a d (another number) followed by a lower case 'p' letter denoting the price varibale. For example:
+
+
+
 20+5p ✅ Valid
+
+
+
 20+5P ❌ Invalid
+
+
+
 5p+20 ❌ Invalid
+
+
+
 123-20p ✅ Valid
-2> None of the field should be empty ! If its empty it may led to unexpected behaviour like crashing, expections are not handled
-**
+
+
+
+**2> None of the field should be empty ! If its empty it may led to unexpected behaviour like crashing, expections are not handled
+****
 
 **Here are some screenshots : )**
 
